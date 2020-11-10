@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment No 2</title>
+	<link rel="stylesheet" type="text/css" href="css/ass2.css">
+	
+</head>
+<body>
+
+<table border="2" bordercolor="black" width="800" align="center"><td>
+<div>
+<form action="www.google.com" method="get">
+	<h3 class="apply">Apply For Permission To Date My Daughter/Son</h3>
+
+	<label for="fname">First Name : &nbsp;</label><input type="text" placeholder="Enter First Name" id="fname" required pattern="[a-zA-Z]+" />&nbsp;
+
+	<label for="lname">Last Name : &nbsp;</label><input type="text" placeholder="Enter Last Name" id="lname" required pattern="[a-zA-Z]+" ><br><br>
+
+	<label for="email"> Email : &nbsp;</label><input type="email" placeholder="Enter Your Email-Id" id="email" required><br><br>
+
+	<label for="phno">Phone No: &nbsp;</label><input type="number"  pattern="[789][0-9]{9}" id="phno" maxlength="10" required ><br><br>
+
+	<label>Gender : </label>
+	<label for="male">Male</label><input type="radio" name="gender" value="male" id="male">
+	<label for="female">Female</label><input type="radio" name="gender" value="Female" id="female"><br><br>
+
+	<label>Date of proposed outing : &nbsp;</label>
+	<input type="date" class="form-control" required><br><br>
+
+	<label>Please Check all that apply to you : &nbsp;</label><br>
+	<label >I have tattoos and/or piercing</label>&nbsp;<input type="checkbox" ><br>
+	<label>I am more than 2 year older than my daughter </label>&nbsp;<input type="checkbox" name=""><br>
+	<label>I own a panel van or Ferrari</label>&nbsp;<input type="checkbox" name=""><br>
+	<label>I work full-time</label>&nbsp;<input type="checkbox" name=""><br>
+	<label>My parents are rich</label>&nbsp;<input type="checkbox" name=""><br>
+	<label>Is the date at a private/public location</label>&nbsp;<input type="checkbox" name=""><br><br>
+
+	<label>Education :&nbsp; </label><input type="text" name=""><br><br>
+
+	<label for="review">Why do you want to date my daughter(50 word input) : &nbsp;</label><br>
+	<textarea id="review" rows="4" cols="30" maxlength="50" required></textarea><br><br>
+
+	<label for="doc">Upload Bank Statement: &nbsp;</label><input type="file" id="doc"><br><br>
+	<input type="submit" value="Submit">
+
+</form>
+</div>
+</td></table>
+</body>
+</html>
